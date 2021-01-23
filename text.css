@@ -1,0 +1,131 @@
+* {
+  font-family: Potta One;
+}
+body {
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2d3436;
+}
+.grettings,
+.form {
+  display: none;
+}
+.showing {
+  display: block;
+}
+.js-click {
+  margin: 15px 10px 5px 0px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+.pending,
+.finished {
+  list-style: none;
+  padding: 0;
+  margin: 0 10px;
+}
+.pending li {
+  text-align: center;
+  width: 300px;
+}
+.finished li {
+  text-align: center;
+  width: 300px;
+}
+.toDoForm {
+  position: relative;
+  bottom: 50px;
+}
+#formInput,
+#toDoInput {
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  margin: 30px 0;
+  outline: none;
+}
+#formInput {
+  position: relative;
+  bottom: 50px;
+}
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  color: white(0, 0, 0);
+  text-shadow: 0 0 5px #333;
+  margin: 10px;
+  width: 920px;
+  text-align: center;
+}
+.js-clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+.weatherDiv {
+  font-size: 30px;
+  position: absolute;
+}
+.weather {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+.clock {
+  color: white;
+  opacity: 100%;
+}
+.listForm {
+  background-color: #495b63;
+  height: 450px;
+  width: 1000px;
+  margin: 20px auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  overflow-y: scroll;
+}
+.titleBox {
+  position: relative;
+  left: 700px;
+  bottom: 120px;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 70%;
+  animation: fadeIn 0.5s linear;
+}
+.listDiv {
+  display: flex;
+  position: relative;
+  bottom: 60px;
+}
+.listDivIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 70px;
+  width: 300px;
+}

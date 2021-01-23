@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="text.css" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Potta+One:regular"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="title">TODOLIST</h1>
+    <div class="titleBox">
+      <div class="js-clock">
+        <h1 class="clock">00:00</h1>
+      </div>
+      <div class="weatherDiv">
+        <span class="weather"></span>
+      </div>
+    </div>
+
+    <form class="js-form form">
+      <input type="text" placeholder="What is your name" id="formInput" />
+    </form>
+    <h4 class="js-grettings grettings"></h4>
+
+    <form class="toDoForm">
+      <input type="text" placeholder="write to do" id="toDoInput" />
+    </form>
+    <div class="listDiv">
+      <div class="listDivIn">
+        <h3>Pending</h3>
+        <ul class="pending"></ul>
+      </div>
+
+      <div class="listDivIn">
+        <h3>Finished</h3>
+        <ul class="finished"></ul>
+      </div>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="gretting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
