@@ -1,6 +1,9 @@
 * {
   font-family: Potta One;
 }
+html {
+  background-color: #11ffee00;
+}
 body {
   margin: 0;
   color: white;
